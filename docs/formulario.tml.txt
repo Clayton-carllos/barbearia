@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="https://webhook.site/55bdbfec-45f6-4428-9b51-b6a1e7c3e6da" method="get" target="_blank">
+    <fieldset>
+        <legend>CAMPOS DE IDENTIFICAÇÃO</legend>
+        <div>
+            <label for="input_nome">Nome: </label>
+            <input id ="input_nome" type="text" name="nome" placeholder="Digite seu nome">
+        </div>
+ 
+        <div>
+            <label for="input_email">Email: </label>
+            <input id ="input_email" type="email" name="email" placeholder="Digite seu email">
+        </div>
+ 
+    </fieldset>
+ 
+        <div>
+            <label for="input_nb">Data de nascimento</label>
+            <input id ="input_nb" type="date" name="dn" placeholder="DD/MM/YYYY">
+        </div>
+ 
+        <div>
+            <label for="input_he">Horario de entrada</label>
+            <input id ="input_he" type="time" name="he">
+        </div>
+ 
+        <div>
+            <label for="input_et">Nivel de entendimento</label>
+            <input id ="input_et" type="range" name="et">
+        </div>
